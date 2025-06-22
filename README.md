@@ -1,5 +1,5 @@
 # Noisy Byzantine Agreement in Quantum Networks  
-**Simulation Framework for the Weak Broadcast Protocol**
+**Simulation Framework for a Noisy Weak Broadcast Protocol**
 
 This repository contains the code for simulation and analysis on the impact of gate-level depolarizing noise on the Weak Broadcast Protocol (WBC(3,1)), based on the implementation described in the Bachelor thesis _"Noisy Byzantine Agreement in Quantum Networks: Impact of Gate Errors on a Weak Broadcast Protocol"_.
 
