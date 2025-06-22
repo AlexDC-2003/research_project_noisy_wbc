@@ -1,0 +1,45 @@
+clinks:
+- stack1: Sender
+  stack2: Receiver0
+  typ: instant
+- stack1: Sender
+  stack2: Receiver1
+  typ: instant
+- stack1: Receiver0
+  stack2: Receiver1
+  typ: instant
+links:
+- stack1: Sender
+  stack2: Receiver0
+  typ: perfect
+- stack1: Sender
+  stack2: Receiver1
+  typ: perfect
+stacks:
+- name: Sender
+  qdevice_cfg:
+    T1: 0
+    T2: 0
+    dummy: null
+    num_qubits: 1220
+    single_qubit_gate_depolar_prob: 0
+    two_qubit_gate_depolar_prob: 0.2
+  qdevice_typ: generic
+- name: Receiver0
+  qdevice_cfg:
+    T1: 0
+    T2: 0
+    dummy: null
+    num_qubits: 620
+    single_qubit_gate_depolar_prob: 0
+    two_qubit_gate_depolar_prob: 0
+  qdevice_typ: generic
+- name: Receiver1
+  qdevice_cfg:
+    T1: 0
+    T2: 0
+    dummy: null
+    num_qubits: 620
+    single_qubit_gate_depolar_prob: 0
+    two_qubit_gate_depolar_prob: 0.2
+  qdevice_typ: generic
