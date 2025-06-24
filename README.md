@@ -5,6 +5,8 @@ This repository contains the code for simulation and analysis on the impact of g
 
 The goal of this code is to evaluate how hardware-level imperfections (specifically two-qubit gate depolarizing noise) affect the failure probability of the protocol under three adversarial models: no faulty, sender (S) faulty, and receiver (R0) faulty.
 
+This thesis and repository are part of [Research Project 2025](https://github.com/TU-Delft-CSE/Research-Project), conducted at the [Faculty of Electrical Engineering, Mathematics and Computer Science](http://tudelft.nl/ewi), [Delft University of Technology](https://www.tudelft.nl/).  
+
 ---
 
 ## 📦 Repository Structure
